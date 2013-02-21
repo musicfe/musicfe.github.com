@@ -1,12 +1,6 @@
-{% include top.html %}
-
-<body>
-  {% include header.html %}
-
-  {{ content }}
-
-  {% include footer.html %}
-  {% include analytics.html %}
-
-</body>
-</html>
+---
+theme :
+  name : twitter
+---
+{% include JB/setup %}
+{% include themes/twitter/default.html %}
